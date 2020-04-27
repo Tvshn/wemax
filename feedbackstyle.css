@@ -53,3 +53,8 @@ ul li a{
 ul li a:hover{
 	color: #6c757d;
 }
+@media (max-width: 600px){
+	nav{
+		height: 100px;
+	}
+}

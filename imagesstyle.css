@@ -70,7 +70,11 @@ figure{
 .figure-img:hover{
     transform:scale(1.5);
 }
-
+@media (max-width: 600px){
+	nav{
+		height: 100px;
+	}
+}
 @media(min-width: 600px){
 	main{
 		display: grid;
