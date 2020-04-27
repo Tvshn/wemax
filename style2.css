@@ -120,7 +120,7 @@ p{
 .button{
 	margin-top: 95px;
 	padding: 8px 16px;
-	font-size: 20px;
+	font-size: 16px;
 	line-height: 1.5;
 	border-radius: 4px;
 	color: #fff;
@@ -128,7 +128,7 @@ p{
 	border-color: #0099FF;
 	display: inline-block;
 	width: 600px;
-	font-weight: 700;
+	font-weight: 400;
 	text-align: center;
 	white-space: nowrap;
 	vertical-align: middle;
@@ -169,8 +169,9 @@ p{
 		margin-left: 60%;
 	}
 	.button{
-	    width: 300px;
+	    width: 165px;
 	    font-size: 10px;
-	    text-align: center;
+        text-align: center;
+    
 	}
 }
