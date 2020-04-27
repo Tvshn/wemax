@@ -112,6 +112,7 @@ form{
 }
 .card:hover:before{
 	opacity: 1;
+	border-radius: 6px;
 }
 .card img{
 	width: 100%;
@@ -135,7 +136,6 @@ form{
 	font-family: 'Open Sans', sans-serif;
 	color: #fff;
 }
-
 .button{
 	margin-bottom: 12px;
 	padding: 8px 16px;
@@ -159,4 +159,31 @@ form{
 }
 small{
 	font-family: 'Roboto', sans-serif;
+}
+@media (max-width: 600px){
+	nav{
+		height: 100px;
+	}
+	.text{
+		font-size: 15px;
+	}
+	p{
+		margin-top: 20px;
+	}
+	.control{
+		height: 20px;
+		width: 300px;
+		padding: 8px 16px;
+		font-size: 10px;
+	}
+	.button{
+		margin-bottom: 12px;
+	    padding: 8px 16px;
+	    font-size: 10px;
+	    width: 300px;
+	    font-weight: 200;
+	}
+	small{
+		font-size: 10px;
+	}
 }
