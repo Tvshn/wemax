@@ -160,7 +160,7 @@ form{
 small{
 	font-family: 'Roboto', sans-serif;
 }
-@media (max-width: 600px){
+@media screen and (max-width: 600px){
 	nav{
 		height: 100px;
 	}
