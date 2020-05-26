@@ -98,7 +98,6 @@ form{
 .card:hover{
 	transform: translateY(15px);
 }
-
 .card img{
 	width: 100%;
 	border-radius: 6px;
